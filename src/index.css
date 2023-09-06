@@ -1,13 +1,120 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --bistre: #2e170cff;
+  --brown: #9c4221;
+  --lion: #c6976bff;
+  --buff: #e6b17eff;
+  --almond: #f5e0ccff;
+
+  --gradient-top: linear-gradient(
+    0deg,
+    #2e170cff,
+    #9c4221,
+    #c6976bff,
+    #e6b17eff,
+    #f5e0ccff
+  );
+  --gradient-right: linear-gradient(
+    90deg,
+    #2e170cff,
+    #9c4221,
+    #c6976bff,
+    #e6b17eff,
+    #f5e0ccff
+  );
+  --gradient-bottom: linear-gradient(
+    180deg,
+    #2e170cff,
+    #9c4221,
+    #c6976bff,
+    #e6b17eff,
+    #f5e0ccff
+  );
+  --gradient-left: linear-gradient(
+    270deg,
+    #2e170cff,
+    #9c4221,
+    #c6976bff,
+    #e6b17eff,
+    #f5e0ccff
+  );
+  --gradient-top-right: linear-gradient(
+    45deg,
+    #2e170cff,
+    #9c4221,
+    #c6976bff,
+    #e6b17eff,
+    #f5e0ccff
+  );
+  --gradient-bottom-right: linear-gradient(
+    135deg,
+    #2e170cff,
+    #9c4221,
+    #c6976bff,
+    #e6b17eff,
+    #f5e0ccff
+  );
+  --gradient-top-left: linear-gradient(
+    225deg,
+    #2e170cff,
+    #9c4221,
+    #c6976bff,
+    #e6b17eff,
+    #f5e0ccff
+  );
+  --gradient-bottom-left: linear-gradient(
+    315deg,
+    #2e170cff,
+    #9c4221,
+    #c6976bff,
+    #e6b17eff,
+    #f5e0ccff
+  );
+  --gradient-radial: radial-gradient(
+    #2e170cff,
+    #9c4221,
+    #c6976bff,
+    #e6b17eff,
+    #f5e0ccff
+  );
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.subHeading {
+  font-size: 4rem;
+  text-align: center;
+  color: var(--bistre);
+}
+
+.button {
+  background-color: var(--brown);
+  color: var(--almond);
+  padding: 12px 18px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.button:hover {
+  color: var(--brown);
+  border: 1px solid var(--brown);
+  background-color: var(--almond);
+}
+
+.noblogs {
+  padding: 100px;
+  margin: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid red;
+  text-align: center;
 }
