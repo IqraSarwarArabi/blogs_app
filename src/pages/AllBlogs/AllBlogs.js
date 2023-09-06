@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import NavBar from "../../components/NavBar/NavBar";
-import Footer from "../../components/Footer/Footer";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import styles from "./AllBlogs.module.css";
 import { useDispatch, useSelector } from "react-redux";
@@ -16,7 +14,6 @@ export const AllBlogs = () => {
 
   return (
     <>
-      <NavBar />
       <div className={styles.content}>
         <h1 className="subHeading">Our Blogs!</h1>
         <div className={styles.blogs}>
@@ -38,7 +35,6 @@ export const AllBlogs = () => {
           )}
         </div>
       </div>
-      <Footer />
     </>
   );
 };
