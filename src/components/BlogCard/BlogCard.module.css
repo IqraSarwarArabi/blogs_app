@@ -1,0 +1,25 @@
+.container {
+  margin-top: 50px;
+}
+
+.container .textContainer {
+  text-align: justify;
+  margin-bottom: 30px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.container .image {
+  height: 280px;
+}

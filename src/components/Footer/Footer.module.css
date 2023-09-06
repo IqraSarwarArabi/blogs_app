@@ -1,0 +1,8 @@
+.footerContent {
+  font-size: 20px;
+  background-color: var(--almond);
+  padding: 30px 200px;
+  margin-top: 100px;
+  color: var(--brown);
+  text-align: center;
+}

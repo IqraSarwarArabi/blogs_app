@@ -1,0 +1,54 @@
+.quill {
+  height: 500px !important;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.header img {
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+}
+
+.quillContainer {
+  margin-bottom: 80px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.inputField {
+  margin-block: 20px;
+  display: flex;
+  justify-content: left;
+}
+
+label {
+  width: 150px;
+}
+
+.custom {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--brown);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.inputField input[type="file"] {
+  display: none;
+}
+
+.custom input[type="file"]:focus + span {
+  background-color: var(--brown);
+}

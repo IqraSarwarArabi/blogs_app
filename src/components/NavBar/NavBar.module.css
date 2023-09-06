@@ -1,0 +1,32 @@
+.navbar {
+  font-weight: bold;
+  font-size: 32px;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--almond);
+  color: #d69e2e;
+  justify-content: space-between;
+  padding: 18px 200px;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav img {
+  width: 300px;
+  height: auto;
+}
+
+a {
+  font-size: 16px;
+}
+
+.active {
+  color: var(--brown) !important;
+  border-bottom: 2px solid var(--brown);
+}

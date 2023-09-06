@@ -1,0 +1,14 @@
+.cards,
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.container {
+  flex-direction: column;
+}

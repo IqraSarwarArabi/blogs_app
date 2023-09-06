@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 154px 0px;
+}
+
+.container p {
+  max-width: 500px;
+  line-height: 3rem;
+  font-size: 19px;
+  font-weight: 400;
+  margin-block: 50px;
+}
+
+.brown {
+  color: var(--brown);
+  font-size: 5rem;
+}
+
+.heading {
+  font-size: 4rem;
+  line-height: 6rem;
+  max-width: 600px;
+}

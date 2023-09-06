@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding: 50px;
+}
+.container p {
+  max-width: 800px;
+  line-height: 2.5rem;
+  font-size: 19px;
+  text-align: justify;
+  font-weight: 400;
+  margin-block: 50px;
+}
+.wrapper {
+  margin-top: 100px;
+}
